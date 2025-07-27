@@ -25,20 +25,21 @@ AFTER SHARPENING:<img width="204" height="204" alt="image" src="https://github.c
 
 ## How to Run
 
+
 ### 1. Setup
 
 Install dependencies in a virtual environment:
-```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install opencv-python numpy
 
-### 2. Run CLAHE only:
+2. 📜 Run CLAHE only:
 python scripts/clahe.py
 
-### 3. Run CLAHE + Sharpening:
+3. 📜 Run CLAHE + Sharpening:
 python scripts/sharpen.py
 
+---
 **Why This Matters**
 - Denoising blurred edge features and reduced YOLO accuracy
 - CLAHE improves local contrast in murky water
